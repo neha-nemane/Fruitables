@@ -1,0 +1,119 @@
+.div1
+{
+    background-color: #81c408;
+    height: 7vh;
+    border-radius: 50px 20px 50px 20px;
+}
+.div1 a:link,a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+.p-2 a:hover
+{
+    color: orange;
+}
+.breadcrumb-item a:hover
+{
+    color: orange;
+}
+.breadcrumb-item::before
+{
+    color: white !important;
+}
+.navbar-nav li a
+{
+    color: black;
+    margin-top: 30px;
+
+}
+.navbar-nav li a:hover
+{
+ color: #81C408;
+}
+input[type=search]
+{
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    border: 2px solid orange;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px
+}
+input[type=search]:hover
+{
+    background-color: orange;
+}
+input[type=search]::placeholder
+{
+    color: #81C408;
+    height:20px;
+    width:20px;
+}
+.spn1
+{
+    color: orange;
+}
+.spn2
+{
+    color: #81C408;
+}
+.btn1
+{
+    background-color: #81C408;
+}
+.btn1:hover
+{
+    background-color: orange;
+}
+.nav-pills li button
+{
+    width:100px;
+}
+.nav-pills li button:focus
+{
+    background-color: orange !important;
+    color: white !important;
+}
+.slider .card
+{
+  overflow: hidden;
+  border:#81c408 solid 1px;
+}
+.slider img:hover
+{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.shd:hover
+{
+    box-shadow: 0px 0px 30px rgb(185, 183, 183);
+}
+.list-unstyled li,a:link,a:visited
+{
+    text-decoration: none;
+    color: lightgray;
+    padding: 5px;
+}
+.backimg
+{
+    background-image: url("Images/cart-page-header-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.prod .card
+{
+  overflow: hidden;
+  border:#81c408 solid 1px;
+}
+.prod img:hover
+{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.shopd:hover
+{
+    color: #81C408;
+}
